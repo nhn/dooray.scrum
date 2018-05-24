@@ -1,0 +1,23 @@
+{
+  "name": "scrum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.2",
+    "lodash": "^4.17.10",
+    "moment-timezone": "^0.5.14",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.35.1",
+    "uuid": "^3.2.1",
+    "winston": "^2.4.2",
+    "winston-daily-rotate-file": "^3.1.3"
+  }
+}
